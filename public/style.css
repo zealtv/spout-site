@@ -6,21 +6,29 @@
   --color1: #F9B7B8ff;
   --color2: #F05052ff;
   --color2a: #F27274ff;
-  --color3: #FFFFFFff;
-  --color4: #000000bb;
-  --color5: #84D5E2ff;
+  --color3: #FFFFFFee;
+  --color4: #000000aa;
+
+  --color5: lightcyan;
+  --color5: azure;
+  /* --color5: #84D5E2ff; */
+  /* --color5: lightblue; */
+  /* --color5: paleturquoise; */
+  --color1: mistyrose;
+  --color2: lightcoral;
+  --color2a: lightpink;
 
   text-size-adjust: 100%; 
   -ms-text-size-adjust: 100%; 
   -moz-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 h1 {
-  /* font-size: 30pt; */
+  color: var(--color4);
 }
 
 body {
@@ -48,7 +56,7 @@ a:active{
   top:0;
   left:0;
   min-width: 240;
-  min-height: calc( 100vh + calc(var(--header-height) * 0.75));
+  min-height: calc( 150vh + calc(var(--header-height) * 0.75));
 }
 
 .header{
@@ -57,28 +65,33 @@ a:active{
   position: fixed;
   top: 0;
   left: 0; 
+  margin: 0;
   height: calc(var(--header-height) * 0.75);
   padding: 20px 0px;
   text-align: center;
+  border-bottom: 5px solid var(--color3);
 }
 
 .subheading{
+  /* box-sizing: border-box; */
   background-color: var(--color1);
   top: 0;
   left: 0;
-  margin: 0px 10px;
-  padding: 5px 20px;
+  /* width: 100%; */
+  margin:0 10px;
+  padding: 5px 20px 10px;
   text-align: center;
   border-radius: 3px;
-
+  /* border: 5px solid var(--color3); */
 }
 
 .subheading > p{
-  max-width: 800px;
+  max-width: 600px;
   margin: 10px auto;
 }
 
 .doorway{
+  min-height: 210px;
   background-color: var(--color5);
   width: 100%;
   margin: 5px auto;
@@ -143,11 +156,14 @@ a:active{
 .friends{
   background-color: var(--color1);
   width: 100%;
+  height: 100%;
+  /* min-height: 500px; */
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
+  border: 0;
 }
 
 .friend{
@@ -155,6 +171,14 @@ a:active{
   margin: 20px 20px;
   padding: 5px;
   border-radius: 3px;
+}
+
+.footer{
+  margin: 0;
+  min-height: 600px;
+  background-color: var(--color5);
+
+  border-top: 5px solid var(--color3);
 }
 
 @media (max-width: 720px){
