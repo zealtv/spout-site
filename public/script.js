@@ -1,5 +1,3 @@
-console.log("hi");
-
 var icons = [
 
   {  
@@ -19,14 +17,9 @@ var icons = [
 
 ];
 
-// var icons = JSON.parse(json);
-// console.log(icons);
-
 document.body.onload = addFriend;
 
 function addFriend () {
-
-
   icons.forEach(function(icon){
     console.log(icon.img);
     var friend = document.createElement("div");
@@ -44,25 +37,7 @@ function addFriend () {
     friend.appendChild(link);
 
     var friendsDiv = document.getElementById("friends").appendChild(friend);
-    // console.log(friendsDiv);
 
   });
-
-  // for(i=0; i< 100; i++){
-  //   var newDiv = document.createElement("div");
-  //   newDiv.className = "friend";
-  //   // var newContent = document.createTextNode("i am div");
-  //   // newDiv.appendChild(newContent);
-  
-  //   var friendsDiv = document.getElementById("friends").appendChild(newDiv);
-  //   // console.log(friendsDiv);
-  // }
-
-
-
 }
 
-// var img = document.createElement("img");
-// img.src = "http://www.google.com/intl/en_com/images/logo_plain.png";
-// var src = document.getElementById("header");
-// src.appendChild(img);

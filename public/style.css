@@ -5,6 +5,7 @@
 
   --color1: #F9B7B8ff;
   --color2: #F05052ff;
+  --color2a: #F27274ff;
   --color3: #FFFFFFff;
   --color4: #000000bb;
   --color5: #84D5E2ff;
@@ -13,6 +14,7 @@
   -ms-text-size-adjust: 100%; 
   -moz-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 
@@ -46,7 +48,7 @@ a:active{
   top:0;
   left:0;
   min-width: 240;
-  /* min-height: calc( 100vh + calc(var(--header-height) * 0.75)); */
+  min-height: calc( 100vh + calc(var(--header-height) * 0.75));
 }
 
 .header{
@@ -65,104 +67,118 @@ a:active{
   top: 0;
   left: 0;
   margin: 0px 10px;
-  padding: 30px;
+  padding: 5px 20px;
   text-align: center;
   border-radius: 3px;
 
+}
+
+.subheading > p{
+  max-width: 800px;
+  margin: 10px auto;
 }
 
 .doorway{
-  background-color: var(--color1);
+  background-color: var(--color5);
   width: 100%;
-  /* min-height: 100px; */
-  margin: 10px auto;
-  /* padding: 5px; */
+  margin: 5px auto;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   position: sticky;
   top: 0;
   z-index: 1;
-  border-bottom: 5px solid var(--color3);
-
+  border-bottom:  5px solid var(--color3);
+  border-top: 5px solid var(--color3);
 }
 
 .door{
-  min-width: 200px;
   max-width: 240px;
-  min-height: 100px;
-  background-color: var(--color2);
-  margin: 20px;
-  padding: 10px;
+  background-color: var(--color1);
+  margin: 10px;
+  padding: 20px;
   text-align: center;
-  /* flex-basis: 1; */
   border-radius: 3px;
- 
 }
 
 .doorknob{
   min-width: 100px;
   margin: 20px;
   padding: 10px;
-  background-color: var(--color3);
+  background-color: var(--color2);
   text-align: center;
   border: 2px solid;
-  border-color: var(--color3);
+  color: var(--color3);
+  border-color: var(--color2);
   transition-duration: 0.5s;
   border-radius: 3px;
-  /* position: relative; */
 }
 
 .doorknob:hover{
-  border-color: var(--color1);
+  border-color: var(--color3);
+  background-color: var(--color2a);
 }
 
 .about{
   background-color: var(--color1);
+  /* color: var(--color3); */
   width: 100%;
   min-height: 200px;
   margin: 0;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
 
 }
 
 .about > div{
-  max-width: 600px;
-  /* min-height: 500px; */
+  max-width: 500px;
   width: 45%;
   background-color: var(--color2);
   margin: 20px 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
+  color: aliceblue;
 }
 
 .friends{
   background-color: var(--color1);
   width: 100%;
-  /* min-height: 200px; */
   margin: 0;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
 }
 
 .friend{
-  /* max-width: 600px; */
-  /* min-height: 500px; */
-  /* width: 45%; */
   background-color: var(--color2);
   margin: 20px 20px;
   padding: 5px;
   border-radius: 3px;
 }
 
-/*deal with height being to short and header squishing things
-/* @media{
+@media (max-width: 720px){
+  .about, .doorway{
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: static;
+  }
+  .door{
+    margin: 10px auto;
+  }
+  .about > div {
+    width: 90%;
+  }
+  .header{
+    position: relative;
+  }
+  .subheading{
+    margin: 10px 10px;
+  }
+  body{
+    top: 0;
+  }
 
-} */
+}
 
 /*deal with mobile*/
