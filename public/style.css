@@ -3,28 +3,22 @@
   --header-height: 200px;
   box-sizing: border-box;
 
-  --color1: #F9B7B8ff;
-  --color2: #F05052ff;
-  --color2a: #F27274ff;
-  --color3: #FFFFFFee;
-  --color4: #000000aa;
-
-  --color5: lightcyan;
-  --color5: azure;
-  /* --color5: #84D5E2ff; */
-  /* --color5: lightblue; */
-  /* --color5: paleturquoise; */
   --color1: mistyrose;
   --color2: lightcoral;
   --color2a: lightpink;
+  --color3: #FFFFFFee;
+  --color4: #000000aa;
+  --color5: azure;
 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /*fix for scaling flexboxes on mobile*/
   text-size-adjust: 100%; 
   -ms-text-size-adjust: 100%; 
   -moz-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%;
-  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 h1 {

@@ -1,4 +1,8 @@
 var icons = [
+  // {  
+  //   "url": "https://vizzable.zeal.co",
+  //   "img": "vizzable.png"
+  // },
 
   {  
     "url": "https://resolume.com",
@@ -21,7 +25,9 @@ document.body.onload = addFriend;
 
 function addFriend () {
   icons.forEach(function(icon){
-    console.log(icon.img);
+    
+    // console.log(icon.img);
+
     var friend = document.createElement("div");
     friend.className = "friend";
     
