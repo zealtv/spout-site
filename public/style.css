@@ -67,16 +67,15 @@ a:active{
 }
 
 .logo{
-  /* filter: (saturate(0)); */
-  animation: pulse 3s infinite;
-  animation-direction: alternate;
+  animation: pulse 2s infinite;
+  animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out;
   
 }
 
 @keyframes pulse{
   from { transform:scale(1); }
-  to{ transform: scale(0.95);}
+  to{ transform: scale(0.98);}
 }
 
 .subheading{
