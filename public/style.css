@@ -66,6 +66,18 @@ a:active{
   border-bottom: 5px solid var(--color3);
 }
 
+.logo{
+  /* filter: (saturate(0)); */
+  animation: pulse 3s infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes pulse{
+  from { transform:scale(1); }
+  to{ transform: scale(0.95);}
+}
+
 .subheading{
   /* box-sizing: border-box; */
   background-color: var(--color1);
