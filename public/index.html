@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Spout</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width">
 </head>
-<body>  
+
+<body>
+  <script src="supporters.js"></script>
+  <script src="logos.js"></script>
   <script src="script.js"></script>
   <div class="layout">
-   
+
     <div class="header">
-      <img src="images/logo.png" class="logo" height="200px"/>
+      <img src="images/logo.png" class="logo" height="200px" />
     </div>
-   
+
     <div class="subheading">
       <h1>spout.</h1>
       <h4>Ultra-fast, realtime video routing for Windows.</h4>
-        <p>Spout leverages your graphics card enabling to you send realtime video 
-          between Windows applications with near-zero latency or overhead.
-          It is provided free and open source thanks to support from its users.</p>
-    </div>  
-   
+      <p>Spout leverages your graphics card enabling to you send realtime video
+        between Windows applications with near-zero latency or overhead.
+        It is provided free and open source thanks to support from its users.</p>
+    </div>
+
     <div class="doorway">
       <div class="door">
         <a href="https://patreon.com/spout">
-          <div class ="doorknob">
+          <div class="doorknob">
             Support
           </div>
         </a>
@@ -32,7 +36,7 @@
       </div>
       <div class="door">
         <a href="https://spout.github.io">
-          <div class ="doorknob">
+          <div class="doorknob">
             Download
           </div>
         </a>
@@ -40,32 +44,46 @@
       </div>
       <div class="door">
         <a href="https://spout.discourse.group">
-          <div class ="doorknob">
+          <div class="doorknob">
             Community
           </div>
         </a>
         <p>Ask questions and share your work with the Spout community.</p>
       </div>
     </div>
-    
+
     <div class="about">
       <div style="flex:2">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/93701429?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+            src="https://player.vimeo.com/video/93701429?title=0&byline=0&portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
+            allowfullscreen></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
 
       <div style="flex:1">
-        Using Spout you can send video between applications like Resolume, Max, Processing, MadMapper, TouchDesigner and more.  Create graphics in processing, mix them in Resolume and projection map them with Mad Mapper.  Throw in some interactive content from TouchDesigner, Max or Unity while you are at it.
+        Using Spout you can send video between applications like Resolume, Max, Processing, MadMapper, TouchDesigner and
+        more. Create graphics in processing, mix them in Resolume and projection map them with Mad Mapper. Throw in some
+        interactive content from TouchDesigner, Max or Unity while you are at it.
       </div>
     </div>
+
+
 
     <div class="friends" id="friends">
       <!-- this gets populated by script.js -->
     </div>
+    <div class="supporters">
+      <p>
+        <h2>Thank you to our supporters:</h2>
+      </p>
 
-    <div class="footer">
-
+      <p id="supporters"></p>
     </div>
+
+    <div class="footer"></div>
 
   </div>
 </body>
+
 </html>
