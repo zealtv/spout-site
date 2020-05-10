@@ -3,9 +3,9 @@
   --header-height: 200px;
   box-sizing: border-box;
 
-  --color1: mistyrose;
-  --color2: lightcoral;
-  --color2a: lightpink;
+  --color1: rgb(240, 240, 240);
+  --color2: rgb(153, 196, 202);
+  --color2a: rgb(142, 222, 235);
   --color3: #FFFFFFee;
   --color4: #000000aa;
   --color5: azure;
@@ -188,7 +188,7 @@ a:active{
   background-color: var(--color2);
   margin: 20px 20px;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .footer{
