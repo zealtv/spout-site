@@ -3,12 +3,13 @@
   --header-height: 200px;
   box-sizing: border-box;
 
-  --color1: rgb(240, 240, 240);
+  --color1: rgb(248, 248, 248);
   --color2: rgb(153, 196, 202);
   --color2a: rgb(142, 222, 235);
   --color3: #FFFFFFee;
   --color4: #000000aa;
-  --color5: azure;
+  --color5: rgb(225, 241, 243);
+  /* --color5: rgb(132, 204, 214); */
 
 
   font-family: Arial, Helvetica, sans-serif;
@@ -102,6 +103,7 @@ a:active{
   width: 100%;
   margin: 5px auto;
   display: flex;
+  
   justify-content:center;
   position: sticky;
   top: 0;
@@ -113,7 +115,7 @@ a:active{
 .door{
   max-width: 240px;
   background-color: var(--color1);
-  margin: 10px;
+  margin: 10px 30px;
   padding: 20px;
   text-align: center;
   border-radius: 3px;
