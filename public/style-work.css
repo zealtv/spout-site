@@ -3,30 +3,46 @@
   --header-height: 200px;
   box-sizing: border-box;
   
-  /* lower background */
+  /* background */
   /* --color1: rgb(248, 248, 248); */
-  --color1: rgb(240, 240, 238); /* grey with very light shade of orange */
+  --color1: #f1f0ee; /* slightly more grey */
   
    /* doorknob */
+  /* --color2: rgb(153, 196, 202); */
+  /* --color2: #A4A097; - Mid grey */
   --color2: #1a457a; /* - Midnight Blue */
+  /* --color2: #1561ad; - Light Blue */
+  /* --color2: #c2dde6; - Lightsaber Blue (light grey-blue) */
+  /* --color2: #368cbf; Mid blue */
+  /* --color2: #1400c6; Power Blue (bright) */
 
   /* doorknob:hover */
   /* --color2a: rgb(142, 222, 235); */
-  --color2a: rgb(54, 140, 192); /* Medium blue */ 
+  --color2a: #368cbf;
   
-  /* White text */
+  
   --color3: #FFFFFFee;
   
-  /* Dark text */
-  --color4: #262626; /* #000000aa; */
+  /* Text */
+  --color4: #000000aa;
   
   /* upper background */
-  --color5: #2B2B2B; /* old spout site */
+  /* Background Tan: #fceed1 */
+  /* Night Blue: #2d545e (dark green blue) */
+  /* Blue- Muted: #1c77ac (too blue) */
+  /* Grey silver: #bccbde (blue grey) */
+  /* Eighties Grey: #e1e8f0 (light blue grey - possible)*/
+  /* Scuffed Dark Grey: #3d3d3f (dark - possible )*/
+  /* Vanilla Grey: #f6f5f3 simliar to background */
+  /* Light Classy Grey: #f1f0ee similar to background */
+  /* Dark Grey: #393939 - possible */
+  /* Secondhand Grey: #3f3f3f  - possible */
+  /* Slate: #262626 - dark and bold */
+  /* Flat Grey: #7b7b7b - mid grey */
   /* --color5: rgb(225, 241, 243); */
-  /* --color5: rgb(132, 204, 214); */
   
-  /* logo background */
-   --color6: rgb(192, 192, 192);
+  --color5: #262626;
+  /* --color5: rgb(132, 204, 214); */
 
 
   font-family: Arial, Helvetica, sans-serif;
@@ -204,10 +220,9 @@ a:active{
 }
 
 .friend{
-  /* background-color: var(--color2); */
-  background-color: var(--color6);
+  background-color: var(--color2);
   /* margin: 20px 20px; */
-  margin: 8px 8px; /* logo spacing */
+  margin: 10px 10px; /* logo spacing */
   padding: 5px;
   border-radius: 5px;
 }

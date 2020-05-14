@@ -7,6 +7,8 @@ function addFriends() {
 
 		var img = document.createElement('img');
 		img.src = 'images/icons/' + icon.img;
+		// img.style.maxHeight = '60px';
+		// img.style.maxWidth = '60px';
 		img.style.maxHeight = '60px';
 		img.style.maxWidth = '60px';
 
