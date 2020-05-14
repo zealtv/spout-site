@@ -31,6 +31,11 @@ var icons = [
 	},
 	
 	{
+		url: 'https://github.com/AleDel/Spout-UE4',
+		img: 'ue4-logo_800.png'
+	},
+	
+	{
 		url: 'https://github.com/benkuper/Spout-AfterEffects',
 		img: 'After_Effects_128.png'
 	},
@@ -87,7 +92,7 @@ var icons = [
 	
 	{
 		url: 'http://www.bigfug.com/software/painting-with-light',
-		img: 'PaintingWithLight_128.png'
+		img: 'PaintingWithLight-256.png'
 	},
 	
 	{
@@ -122,7 +127,7 @@ var icons = [
 	
 	{
 		url: 'https://www.green-hippo.com',
-		img: 'gh_logo_256.png'
+		img: 'gh_logo_512.png'
 	},
 	
 	{
@@ -157,9 +162,14 @@ var icons = [
 	
 	{
 		url: 'http://www.simmetri.com/',
-		img: 'simmetri_400.png'
+		img: 'simmetri-logo_512.png'
 	},
 	
+	{
+		url: 'https://bazik-vj.com/',
+		img: 'bazik-logo-256.png'
+	},	
+
 	{
 		url: 'http://www.videomappingsoftware.com',
 		img: 'tabulatouch_640.png'
