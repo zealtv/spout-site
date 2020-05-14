@@ -1,33 +1,27 @@
 :root{
-
   --header-height: 200px;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
+
   /* lower background */
-  /* --color1: rgb(248, 248, 248); */
-  --color1: rgb(240, 240, 238); /* grey with very light shade of orange */
+  --color1: rgb(77, 77, 77); /* grey with very light shade of orange */
   
    /* doorknob */
-  --color2: #1a457a; /* - Midnight Blue */
+  --color2: #498994; /* - Midnight Blue */
 
   /* doorknob:hover */
-  /* --color2a: rgb(142, 222, 235); */
-  --color2a: rgb(54, 140, 192); /* Medium blue */ 
+  --color2a: #38b1c7; /* Medium blue */ 
   
-  /* White text */
-  --color3: #FFFFFFee;
-  
-  /* Dark text */
-  --color4: #262626; /* #000000aa; */
-  
-  /* upper background */
-  --color5: #2B2B2B; /* old spout site */
-  /* --color5: rgb(225, 241, 243); */
-  /* --color5: rgb(132, 204, 214); */
-  
-  /* logo background */
-   --color6: rgb(192, 192, 192);
+  --color3: rgba(119, 119, 119, 0.933);
 
+  /* upper background */
+  --color4: #2B2B2B; /* old spout site */
+
+  --textcolor1: #e0e0e0;
+  --textcolor2: #ececec;
+  
+
+
+ 
 
   font-family: Arial, Helvetica, sans-serif;
 
@@ -36,11 +30,12 @@
   -ms-text-size-adjust: 100%; 
   -moz-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%;
+
 }
 
 
 h1 {
-  color: var(--color4);
+  color: var(--textcolor2);
 }
 
 body {
@@ -49,18 +44,18 @@ body {
   top: var(--header-height);
   /* padding: 20px; */
   margin: 0;
-  color: var(--color4);
+  color: var(--color3);
   
 }
 
 a:link, a:visited, a:hover{
   text-decoration: none;
   font-weight: bold;
-  color: var(--color4);
+  color: var(--textcolor1);
 }
 
 a:active{
-  color: var(--color5);
+  color: var(--textcolor2);
 }
 
 
@@ -72,7 +67,8 @@ a:active{
 }
 
 .header{
-  background-color: var(--color5);
+  background-color: var(--color4);
+  color: var(--textcolor1);
   width: 100%;
   position: fixed;
   top: 0;
@@ -99,13 +95,15 @@ a:active{
 .subheading{
   /* box-sizing: border-box; */
   background-color: var(--color1);
+  color: var(--textcolor1);
   top: 0;
   left: 0;
   /* width: 100%; */
-  margin:0 10px;
+  /* margin:0 10px; */
+  margin:0 0;
   padding: 5px 20px 10px;
   text-align: center;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   /* border: 5px solid var(--color3); */
 }
 
@@ -116,7 +114,8 @@ a:active{
 
 .doorway{
   min-height: 210px;
-  background-color: var(--color5);
+  background-color: var(--color4);
+  color: var(--textcolor1);
   width: 100%;
   margin: 5px auto;
   display: flex;
@@ -144,7 +143,7 @@ a:active{
   padding: 10px;
   background-color: var(--color2);
   text-align: center;
-  color: var(--color3);
+  color: var(--textcolor1);
   border-color: var(--color2);
   transition-duration: 0.5s;
   border-radius: 3px;
@@ -169,9 +168,9 @@ a:active{
 .about > div{
   max-width: 500px;
   width: 45%;
-  background-color: var(--color2);
-  margin: 20px 20px;
-  padding: 15px;
+  background-color: var(--color1);
+  margin: 10px 20px;
+  padding: 10px;
   border-radius: 3px;
   color: aliceblue;
 }
@@ -205,7 +204,7 @@ a:active{
 
 .friend{
   /* background-color: var(--color2); */
-  background-color: var(--color6);
+  background-color: var(--color3);
   /* margin: 20px 20px; */
   margin: 8px 8px; /* logo spacing */
   padding: 5px;
@@ -215,7 +214,7 @@ a:active{
 .footer{
   margin: 0;
   /* min-height: 600px; */
-  background-color: var(--color5);
+  background-color: var(--color4);
 
   border-top: 5px solid var(--color3);
 }
@@ -236,7 +235,7 @@ a:active{
     position: relative;
   }
   .subheading{
-    margin: 10px 10px;
+    margin: 10px 0px;
   }
   body{
     top: 0;
