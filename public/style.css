@@ -3,7 +3,8 @@
   box-sizing: border-box;  
 
   /* lower background */
-  --color1: rgb(77, 77, 77); /* grey with very light shade of orange */
+  --color1: rgb(77, 77, 77); 
+
   
    /* doorknob */
   --color2: #498994; /* - Midnight Blue */
@@ -17,7 +18,7 @@
   --color4: #2B2B2B; /* old spout site */
 
   --textcolor1: #e0e0e0;
-  --textcolor2: #ececec;
+  --textcolor2: #fdfdfd;
   
 
 
