@@ -248,6 +248,11 @@ var icons = [
 	{
 		url: 'http://www.visikord.com/',
 		img: 'visikord_114.png'
+	},
+	
+	{
+		url: 'https://github.com/Off-World-Live/',
+		img: 'offworldlivesquarelogo.png'
 	}
 	
 ];
