@@ -253,6 +253,11 @@ var icons = [
 	{
 		url: 'https://github.com/Off-World-Live/',
 		img: 'offworldlivesquarelogo.png'
+	},
+	
+	{
+		url: 'https://www.classx.it/',
+		img: 'classx_128x128.png'
 	}
 	
 ];
