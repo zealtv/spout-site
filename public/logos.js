@@ -258,6 +258,11 @@ var icons = [
 	{
 		url: 'https://www.classx.it/',
 		img: 'classx_128x128.png'
+	},
+	
+	{
+		url: 'https://pixera.one/en/',
+		img: 'PIXERA_white_512.png'
 	}
 	
 ];
