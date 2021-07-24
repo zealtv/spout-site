@@ -263,6 +263,11 @@ var icons = [
 	{
 		url: 'https://pixera.one/en/',
 		img: 'PIXERA_white_512.png'
+	},
+	
+	{
+		url: 'https://www.madrix.com/',
+		img: 'MADRIX_256.png'
 	}
 	
 ];
