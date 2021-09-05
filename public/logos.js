@@ -268,7 +268,18 @@ var icons = [
 	{
 		url: 'https://www.madrix.com/',
 		img: 'MADRIX_256.png'
+	},
+	
+	{
+		url: 'https://screenberry.com/',
+		img: 'Screenberry_512.png'
+	},
+
+	{
+		url: 'https://hcgilje.wordpress.com/vpt/',
+		img: 'VPT8.png'
 	}
+	
 	
 ];
 
