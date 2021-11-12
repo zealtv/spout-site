@@ -285,6 +285,5 @@ var icons = [
 		img: 'MorpPro_Logo128x128.png'
 	}
 	
-	
 ];
 
