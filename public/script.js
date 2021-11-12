@@ -36,4 +36,5 @@ function addFriends() {
     document.getElementById('supporters').appendChild(link);  
 
 	});
+	
 }
