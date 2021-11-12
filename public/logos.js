@@ -278,6 +278,11 @@ var icons = [
 	{
 		url: 'https://hcgilje.wordpress.com/vpt/',
 		img: 'VPT8.png'
+	},
+	
+	{
+		url: 'https://www.morph.pro/',
+		img: 'MorpPro_Logo128x128.png'
 	}
 	
 	
