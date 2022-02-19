@@ -31,7 +31,7 @@ var icons = [
 	},
 	
 	{
-		url: 'https://github.com/AleDel/Spout-UE4/',
+		url: 'https://offworld.live/unreal-engine-live-streaming-toolkit/',
 		img: 'ue4-logo_800.png'
 	},
 	
@@ -112,7 +112,7 @@ var icons = [
 
 	{
 		url: 'http://www.zwobotmax.com/',
-		img: 'Zwobot_128.png'
+		img: 'Logo_128_dark_web.png'
 	},
 	
 	{
@@ -251,8 +251,8 @@ var icons = [
 	},
 	
 	{
-		url: 'https://github.com/Off-World-Live/',
-		img: 'offworldlivesquarelogo.png'
+		url: 'https://github.com/Off-World-Live/obs-spout2-plugin/releases/',
+		img: '256px-OBS-svg.png'
 	},
 	
 	{
@@ -284,6 +284,7 @@ var icons = [
 		url: 'https://www.morph.pro/',
 		img: 'MorpPro_Logo128x128.png'
 	}
+	
 	
 ];
 
