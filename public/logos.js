@@ -283,7 +283,18 @@ var icons = [
 	{
 		url: 'https://www.morph.pro/',
 		img: 'MorpPro_Logo128x128.png'
+	},
+	
+	{
+		url: 'https://github.com/you-win/spout-gd/',
+		img: 'godot-logo.png'
+	},
+	
+	{
+		url: 'https://benjamin.kuperberg.fr/chataigne/en/',
+		img: 'chataigne-icon.png'
 	}
+	
 	
 	
 ];
