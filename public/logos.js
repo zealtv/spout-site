@@ -293,7 +293,12 @@ var icons = [
 	{
 		url: 'https://benjamin.kuperberg.fr/chataigne/en/',
 		img: 'chataigne-icon.png'
-	}
+	},
+	
+	{
+		url: 'https://ossia.io/',
+		img: 'ossia-score.png'
+	}	
 	
 	
 	
