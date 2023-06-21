@@ -298,7 +298,12 @@ var icons = [
 	{
 		url: 'https://ossia.io/',
 		img: 'ossia-score.png'
-	}	
+	},
+	
+	{
+		url: 'https://ioversal.com/',
+		img: 'ioversal256.png'
+	}		
 	
 	
 	
