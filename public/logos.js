@@ -191,7 +191,7 @@ var icons = [
 	},
 	
 	{
-		url: 'https://github.com/leadedge/Spout2/tree/master/MILKDROP/',
+		url: 'https://github.com/leadedge/BeatDrop/releases/',
 		img: 'winamp_512.png'
 	},
 	
