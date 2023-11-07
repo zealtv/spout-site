@@ -1,6 +1,11 @@
 var icons = [
 
 	{
+		url: 'https://leadedge.github.io/spout-projects.html',
+		img: 'github-mark-white.png'
+	},
+
+	{
 		url: 'https://processing.org/',
 		img: 'Processing_128.png'
 	},
