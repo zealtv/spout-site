@@ -196,7 +196,7 @@ var icons = [
 	},
 	
 	{
-		url: 'https://github.com/leadedge/Spout2/tree/2.006/MILKDROP/',
+		url: 'https://github.com/leadedge/Spout2/tree/master/MILKDROP/',
 		img: 'winamp_512.png'
 	},
 	
@@ -308,7 +308,13 @@ var icons = [
 	{
 		url: 'https://ioversal.com/',
 		img: 'ioversal256.png'
-	}		
+	},
+	
+	{
+		url: 'https://www.ledstripstudio.com/',
+		img: 'lss logo 256.png'
+	}
+	
 	
 	
 	
