@@ -313,10 +313,12 @@ var icons = [
 	{
 		url: 'https://www.ledstripstudio.com/',
 		img: 'lss logo 256.png'
+	},
+	
+	{
+		url: 'https://synapserack.com/en/',
+		img: 'Synapse_Icon.png'
 	}
-	
-	
-	
 	
 ];
 
