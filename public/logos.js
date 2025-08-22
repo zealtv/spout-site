@@ -318,7 +318,14 @@ var icons = [
 	{
 		url: 'https://synapserack.com/en/',
 		img: 'Synapse_Icon.png'
+	},
+	
+	{
+		url: 'https://coollab-art.com/',
+		img: 'coollab-logo.png'
 	}
+	
+	
 	
 ];
 
