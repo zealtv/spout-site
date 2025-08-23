@@ -323,9 +323,12 @@ var icons = [
 	{
 		url: 'https://coollab-art.com/',
 		img: 'coollab-logo.png'
+	},
+	
+	{
+		url: 'https://tixl.app/',
+		img: 'TIXL.png'
 	}
-	
-	
 	
 ];
 
