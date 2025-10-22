@@ -6,6 +6,11 @@ var icons = [
 	},
 
 	{
+		url: 'https://leadedge.github.io/spout-projects.html#Winamp',
+		img: 'winamp_512.png'
+	},
+
+	{
 		url: 'https://processing.org/',
 		img: 'Processing_128.png'
 	},
@@ -193,11 +198,6 @@ var icons = [
 	{
 		url: 'https://github.com/leadedge/SpoutVDJ/',
 		img: 'VirtualDJ_600.png'
-	},
-	
-	{
-		url: 'https://github.com/leadedge/Spout2/tree/master/MILKDROP/',
-		img: 'winamp_512.png'
 	},
 	
 	{
