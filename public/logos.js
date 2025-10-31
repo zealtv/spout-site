@@ -9,6 +9,11 @@ var icons = [
 		url: 'https://leadedge.github.io/spout-projects.html#Winamp',
 		img: 'winamp_512.png'
 	},
+	
+	{
+		url: 'https://leadedge.github.io/spout-projects.html#Unreal%20Engine%205',
+		img: 'UE5-Icon-640.png'
+	},
 
 	{
 		url: 'https://processing.org/',
@@ -41,8 +46,8 @@ var icons = [
 	},
 	
 	{
-		url: 'https://offworld.live/unreal-engine-live-streaming-toolkit/',
-		img: 'ue4-logo_800.png'
+		url: 'https://offworld.live/products/live-streaming-toolkit-for-unreal-engine/',
+		img: 'offworldlivesquarelogo.png'
 	},
 	
 	{
